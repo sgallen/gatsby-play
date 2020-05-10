@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import logo from "../../static/temp-logo.png"
+
 class Header extends React.Component {
   constructor(props) {
     super(props)
@@ -19,12 +21,7 @@ class Header extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link className="navbar-item" to="/">
-              <img
-                src={"/temp-logo.png"} // https://www.gatsbyjs.org/docs/static-folder/
-                alt="logo"
-                width="91"
-                height="28"
-              />
+              <img src={logo} alt="logo" width="91" height="28" />
             </Link>
             <a
               role="button"
