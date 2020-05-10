@@ -47,16 +47,28 @@ class Header extends React.Component {
             }`}
           >
             <div className="navbar-start">
-              <Link className="navbar-item" to="/">
+              <Link className="navbar-item" activeClassName="is-active" to="/">
                 Home
               </Link>
-              <Link className="navbar-item" to="/blog">
+              <Link
+                className="navbar-item"
+                activeClassName="is-active"
+                to="/blog"
+              >
                 Blog
               </Link>
-              <Link className="navbar-item" to="/about">
+              <Link
+                className="navbar-item"
+                activeClassName="is-active"
+                to="/about"
+              >
                 About
               </Link>
-              <Link className="navbar-item" to="/contact">
+              <Link
+                className="navbar-item"
+                activeClassName="is-active"
+                to="/contact"
+              >
                 Contact
               </Link>
             </div>
