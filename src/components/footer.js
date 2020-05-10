@@ -2,8 +2,10 @@ import React from "react"
 
 const Footer = () => {
   return (
-    <footer>
-      <p>Created by sga, © {new Date().getFullYear()}</p>
+    <footer className="footer">
+      <div className="container">
+        <p>Created by sga, © {new Date().getFullYear()}</p>
+      </div>
     </footer>
   )
 }
